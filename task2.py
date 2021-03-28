@@ -13,3 +13,11 @@ example assertion:
 assert multiplication(5) == [5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60]
 assert multiplication(2,5) == [2, 4, 6, 8, 10]
 """
+def multiplication(a=1 , b=12):
+    string = []
+    for i in range(1,b+1):
+        num = int(a * 1)
+        string.apped(num)
+    return string
+
+assert multiplication(5) == [5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60]
