@@ -19,5 +19,5 @@ def title(x="="):
     middle = x + " Title " + x
     final = border +"\n" + middle + "\n" + border
     return final
+print(title())
 
-assert title() == "=========\n= Title =\n========="
