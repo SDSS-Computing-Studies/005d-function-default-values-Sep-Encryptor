@@ -13,11 +13,17 @@ example assertion:
 assert multiplication(5) == [5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60]
 assert multiplication(2,5) == [2, 4, 6, 8, 10]
 """
-def multiplication(a=1 , b=12):
-    string = []
-    for i in range(1,b+1):
-        num = int(a * 1)
-        string.apped(num)
-    return string
+from typing import no_type_check
 
-assert multiplication(5) == [5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60]
+
+def multiplication(number,t=12):
+    list=[]
+    no_type_check=0
+    for i in range(t):
+        nth=nth+1
+        nums=nums*nth
+        list.append(nums)
+    return list
+    
+
+
